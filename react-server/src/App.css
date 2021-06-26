@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: wrap;
+    margin: 0 10%;
+    height: 50px;
+}
+ul li {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: inherit; 
+  }
+
+.header_container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_container ul li {
+    margin-left: 15px;
+}
+
+.header_container_logo {
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.header_container ul li {
+    font-size: 1.2em;
+    cursor: pointer;
+    font-weight: 550;
+}
+.header_container ul li:hover{
+    margin-top: 2px;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0px;
+    background: #000;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    height: 2px;
+    width: 100%;
+}
+
+.active {
+    color: #DA0037;
+}
+
+.container {
+    margin: 0 10%;
+}
+
+.list {
+    padding: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px 1px !important;
+    border-radius: 5px;
+}
+.list:hover {
+    box-shadow: #DA0037 0px 1px 2px 2px !important;
+}
+
+.list h1 {
+    color: #DA0037;
+    letter-spacing: 1px;
+}
+
+.list div{
+    margin-top: 10px;
+}
+
+.form_div {
+    margin: 10vh auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_div form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_div form label {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_div .submit_form {
+    margin-top: 20px;
+    width: 400px;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+.form_div input {
+    margin-top: 5px;
+    font-size: 16px;
+}
+.form_div textarea {
+    height: 200px;
+    font-size: 16px;
+}
+.title { 
+    width: 400px;
+    padding: 0.5rem;
+}
+
+b {
+    color: red;
+}
+
+.text {
+    width: 400px;
+    padding: 0.5rem;
+}
+
+
+.close_icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blog_title {
+    margin-top: -15px;
+}
